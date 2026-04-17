@@ -29,3 +29,19 @@ print(a,b,c)
 
 a=b=c=5
 print(a,b,c)
+
+
+# Type Conversion: is a way to convert a variable from one data type to another data type
+# Two types: Implicit & Explicit
+
+# Implicit: Python changes itself
+print(5+5.6) #it implicit convert data type to float
+print(type(5), type(5.6))
+
+# Explicit: Python explicit type conversion doesn't change original data it creates new data
+# int(), str(), float()
+n1 = input("Enter 1st no.: ")
+n2= input("Enter 2nd no.: ")
+result = int(n1) + int(n2)
+print(result)
+print(type(n1)) #str because at the line 45 int(n1) creates new data which data type is int and we are asking here data type of original n1 which is string. 
