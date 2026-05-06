@@ -1,3 +1,4 @@
+# Traffic Lights
 col = input("Enter your color: ")
 
 if(col == "Red"):
