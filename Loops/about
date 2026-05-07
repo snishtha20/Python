@@ -1,0 +1,13 @@
+Why do we need loops?
+Imagine you search for Samsung phones on Flipkart.
+
+There might be 100+ products
+Each product needs to be displayed with:
+Image
+Name
+Price
+Rating
+
+A loop automatically repeats the same structure for each product.
+So instead of writing code 100 times,
+you write it once, and the loop handles repetition.
