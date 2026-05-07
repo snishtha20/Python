@@ -19,7 +19,7 @@ print(float_1, float_2, float_3)
 x = 3.14j
 print(x.real, x.imag)
 
-
+# String
 s1 = 'Nishtha Singh'
 s2 = "Nishtha Singh"
 char = "N"
@@ -27,3 +27,14 @@ multiline_str = """I'm Nishtha Singh."""
 unicode = u"\U0001f600" #used for emoji
 raw_str = r"raw \n string"
 print(s1, s2, char, multiline_str, unicode, raw_str)
+
+# None: if we have to declare any variable earlier then we have to assign None to it otherwise it will raise an error
+k
+a = 5
+b=5
+print(a,b)
+
+k = None
+a = 5
+b=5
+print(a,b)
