@@ -1,0 +1,49 @@
+What are Lists
+List is a data type where you can store multiple items under 1 name. More technically, lists act like dynamic arrays which means you can add more items on the fly.
+
+Array Vs Lists:
+Fixed Vs Dynamic Size
+Convenience -> Hetrogeneous
+Speed of Execution: Low as compared to array
+Memory: More memory occupied than array
+
+Characterstics of a List-
+Ordered
+Changeble/Mutable
+Hetrogeneous
+Can have duplicates
+are dynamic
+can be nested
+items can be accessed
+can contain any kind of objects in python
+
+
+Disadvantages of Python Lists
+Slow
+Risky usage
+eats up more memory
+
+
+a = [1,2,3]
+b = a
+
+print(a)
+print(b)
+
+a.append(4)
+print(a)
+print(b)
+Above code also modifies b value 2nd time
+# lists are mutable
+
+a = [1,2,3]
+b = a.copy()
+
+print(a)
+print(b)
+
+a.append(4)
+print(a)
+print(b)
+
+# lists are mutable
