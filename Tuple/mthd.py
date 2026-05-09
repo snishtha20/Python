@@ -33,7 +33,7 @@ print(tup.count(1))
 # max(t)   # 4
 # min(t)   # 1
 # sum(t)   # 10
-
+# sorted(t,reverse=True) #generate an ordered list 
 
 
 # Key Points (Very Important)
