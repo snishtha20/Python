@@ -10,6 +10,7 @@ It includes topics such as basic programming, data structures, functions, loops,
 - Conditional Statements (`if`, `else`, `elif`)
 - Loops (`for`, `while`)
 - Lists, Tuples, Sets, Dictionaries
+- Object Oriented Programming 
 - Functions and Modules
 - Strings and String Operations
 - Variables and Data Types
