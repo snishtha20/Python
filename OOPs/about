@@ -1,0 +1,96 @@
+Class
+Class is a blueprint
+
+Object
+Object is instances of class
+
+
+Methods Vs Functions
+Methods: That functions inside the class/constructor
+Functions: That are outside of the class
+Ex: 
+L=[1,2,3,4]
+len(L) -> function because it is not built in List class
+L.append(5) ->method because it belongs to List
+
+
+Class Diagram
+
+|||||||||||||||||||||||||||||
+|                           |   
+|       CLASS(ATM)          |
+|||||||||||||||||||||||||||||
+|                           |
+|       DATA/VARIABLES      |
+|        PIN                |
+|        BALANCE            |
+|                           |
+|||||||||||||||||||||||||||||
+|                           |
+|       METHODS             |   
+|        CREATE PIN         |   
+|        CHANGE PIN         |
+|        CHANGE BALANCE     |
+|        WITHDRAW           |
+|                           |
+|||||||||||||||||||||||||||||
+
+
+Magic Functions: These are special functions. These have superpowers
+1. constructors = Call as object created. Don't have to call explicitely like other functions
+    syntax:  def __init__(self):
+    
+    use: wo kaam ya functions ya code jo automatically run ho jaaye application me, wo functions jinka control user ke haath me na ho, wo kaam jo user se puche bina krne ho . 
+         jaise login form, registration form, payment form ye sab user apni marzi se swtich krta h or fill krta h
+         but connecting to database/backend server as application opens, connecting to internet
+         In short, constructor is used to write configuration related code
+    
+    Example: If god id programmer, earth is class, human beings are object then what will be constructor? It will be death because god automatically decides time of death.
+
+
+
+**Concept of Self- 
+We know ki class ke members or methods ko only objects access kr skte h. Only Object can access everything present in class. Class's methods can not talk to each other or access each other's data, one method can not call other method inside the class. 
+This problem is solved by self. Check atm.py file. Constructor calls menu method with the help of self.
+
+Then what is self?
+Answer is Self is an object. Self is the current object. When we create an object of any class, then the address of that object and self is legit same. that defines that self is nothing but that same object which was created.
+We can find out address by: print(id(obj))
+
+so by default, self becomes the parameter
+
+It is not needed to use self name for this we can use any name.
+
+Self is needed because OOPs' golden rule is ek function dusre function se baat nhi kr skte, data access nhi kr skte, ek dusre ko call nhi kr skte. To communication ko establish krne ke liye in the class, we need self. 
+
+
+2. __str__ : this magic function has superpower to print anything as u want when u create new data taype. Check Fraction.py
+
+__str__() controls how an object looks when printed. It converts an object into a readable string. It converts an object into a readable string. 
+Instead of: <object at 0x12345>
+
+you can show: 
+SameRahul
+3/4
+BMW Car
+Point(2,5)
+
+3. __add__, __sub__,__mul__,__truediv__:
+These magic methods allow your objects to behave like numbers using operators such as +, -, *, /
+When Python sees:
+a + b
+a - b
+a * b
+a / b
+ it internally performs all these operations
+
+Superpower of These Methods:
+They enable operator overloading.
+Meaning: your custom objects can behave like integers, floats, strings, etc.
+
+Without these methods:
+obj1 + obj2
+would give error.
+With magic methods: Python knows how to perform operations on objects.
+
+Mostly asked questions on: self, static & super keyword
