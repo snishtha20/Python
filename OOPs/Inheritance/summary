@@ -1,0 +1,15 @@
+Inheritance in summary:
+
+A class can inherit from another class.
+
+Inheritance improves code reuse
+
+Constructor, attributes, methods get inherited to the child class
+
+The parent has no access to the child class
+
+Private properties of parent are not accessible directly in child class
+
+Child class can override the attributes or methods. This is called method overriding. (child class wale attributes & methods use kiye jaynege. To use parent class's things, we have to create object of parent class)
+
+super() is an inbuilt function which is used to invoke the parent class methods and constructor not attributes
