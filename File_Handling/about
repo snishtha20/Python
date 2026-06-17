@@ -1,0 +1,14 @@
+Some Theory
+Types of data used for I/O:
+Text - '12345' as a sequence of unicode chars
+Binary - 12345 as a sequence of bytes of its binary equivalent
+Hence there are 2 file types to deal with
+Text files - All program files are text files
+Binary Files - Images,music,video,exe files
+
+How File I/O is done in most programming languages
+Open a file
+Read/Write data
+Close the file
+
+The 'f' which is used as f.read(), f.write() is called as file handler object.
